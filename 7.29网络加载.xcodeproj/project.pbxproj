@@ -13,6 +13,7 @@
 		A3A0B75D1D4B695400D5AE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A0B75B1D4B695400D5AE2F /* Main.storyboard */; };
 		A3A0B75F1D4B695400D5AE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A0B75E1D4B695400D5AE2F /* Assets.xcassets */; };
 		A3A0B7621D4B695400D5AE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A0B7601D4B695400D5AE2F /* LaunchScreen.storyboard */; };
+		A3A0B76B1D4B6A1900D5AE2F /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A0B76A1D4B6A1900D5AE2F /* AppInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A3A0B75E1D4B695400D5AE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3A0B7611D4B695400D5AE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3A0B7631D4B695400D5AE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A0B7691D4B6A1900D5AE2F /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
+		A3A0B76A1D4B6A1900D5AE2F /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				A3A0B7601D4B695400D5AE2F /* LaunchScreen.storyboard */,
 				A3A0B7631D4B695400D5AE2F /* Info.plist */,
 				A3A0B7521D4B695300D5AE2F /* Supporting Files */,
+				A3A0B7691D4B6A1900D5AE2F /* AppInfo.h */,
+				A3A0B76A1D4B6A1900D5AE2F /* AppInfo.m */,
 			);
 			path = "7.29网络加载";
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3A0B75A1D4B695400D5AE2F /* ViewController.m in Sources */,
+				A3A0B76B1D4B6A1900D5AE2F /* AppInfo.m in Sources */,
 				A3A0B7571D4B695300D5AE2F /* AppDelegate.m in Sources */,
 				A3A0B7541D4B695300D5AE2F /* main.m in Sources */,
 			);
