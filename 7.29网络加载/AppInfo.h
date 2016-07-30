@@ -10,4 +10,17 @@
 
 @interface AppInfo : NSObject
 
+/**
+ *  应用的名称
+ */
+@property (nonatomic, copy) NSString *name;
+/**
+ *  图片的下载地址
+ */
+@property (nonatomic, copy) NSString *icon;
+/**
+ *  下载量
+ */
+@property (nonatomic, copy) NSString *download;
+
 @end
