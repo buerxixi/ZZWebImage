@@ -80,6 +80,9 @@
         UIImage *image = [UIImage imageWithData:data];
 
         [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+            
+//            [NSThread sleepForTimeInterval:arc4random_uniform(4)];
+            
             cell.imageView.image = image;
             [self.tableView reloadData];
         }];
