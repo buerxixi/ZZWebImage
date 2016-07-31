@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="svc-Bi-aie">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="svc-Bi-aie" customClass="HMTableViewCell">
                                 <rect key="frame" x="0.0" y="92" width="600" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="svc-Bi-aie" id="GPr-dP-bsL">
@@ -35,20 +35,27 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fg0-Wu-QU3">
-                                            <rect key="frame" x="66" y="44" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fg0-Wu-QU3">
+                                            <rect key="frame" x="66" y="48" width="36" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="cPE-kd-i7v" firstAttribute="top" secondItem="TcH-jH-HVu" secondAttribute="top" id="8yY-0A-oF4"/>
+                                        <constraint firstItem="fg0-Wu-QU3" firstAttribute="leading" secondItem="TcH-jH-HVu" secondAttribute="trailing" constant="8" id="AVY-KN-2ID"/>
                                         <constraint firstItem="TcH-jH-HVu" firstAttribute="leading" secondItem="GPr-dP-bsL" secondAttribute="leadingMargin" id="OtY-oW-EnR"/>
                                         <constraint firstItem="TcH-jH-HVu" firstAttribute="centerY" secondItem="GPr-dP-bsL" secondAttribute="centerY" id="saE-XU-aT7"/>
+                                        <constraint firstItem="fg0-Wu-QU3" firstAttribute="bottom" secondItem="TcH-jH-HVu" secondAttribute="bottom" id="sia-1o-GYW"/>
                                         <constraint firstItem="cPE-kd-i7v" firstAttribute="leading" secondItem="TcH-jH-HVu" secondAttribute="trailing" constant="8" id="yQk-kv-JLP"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="downloadLable" destination="fg0-Wu-QU3" id="oCz-mz-OT4"/>
+                                    <outlet property="iconImageView" destination="TcH-jH-HVu" id="Q0x-Da-MVg"/>
+                                    <outlet property="nameLable" destination="cPE-kd-i7v" id="gMP-QM-ung"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

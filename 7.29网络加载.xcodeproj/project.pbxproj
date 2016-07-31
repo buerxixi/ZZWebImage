@@ -36,6 +36,7 @@
 		A3A0B7B01D4B6B5600D5AE2F /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A0B7981D4B6B5600D5AE2F /* UIImageView+HighlightedWebCache.m */; };
 		A3A0B7B11D4B6B5600D5AE2F /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A0B79A1D4B6B5600D5AE2F /* UIImageView+WebCache.m */; };
 		A3A0B7B21D4B6B5600D5AE2F /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A0B79C1D4B6B5600D5AE2F /* UIView+WebCacheOperation.m */; };
+		A3CBC6831D4CCF1E00769CC8 /* HMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CBC6821D4CCF1E00769CC8 /* HMTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,8 @@
 		A3A0B79A1D4B6B5600D5AE2F /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		A3A0B79B1D4B6B5600D5AE2F /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		A3A0B79C1D4B6B5600D5AE2F /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		A3CBC6811D4CCF1E00769CC8 /* HMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTableViewCell.h; sourceTree = "<group>"; };
+		A3CBC6821D4CCF1E00769CC8 /* HMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 				A3A0B7521D4B695300D5AE2F /* Supporting Files */,
 				A3A0B7691D4B6A1900D5AE2F /* AppInfo.h */,
 				A3A0B76A1D4B6A1900D5AE2F /* AppInfo.m */,
+				A3CBC6811D4CCF1E00769CC8 /* HMTableViewCell.h */,
+				A3CBC6821D4CCF1E00769CC8 /* HMTableViewCell.m */,
 			);
 			path = "7.29网络加载";
 			sourceTree = "<group>";
@@ -303,6 +308,7 @@
 				A3A0B7B11D4B6B5600D5AE2F /* UIImageView+WebCache.m in Sources */,
 				A3A0B7A61D4B6B5600D5AE2F /* SDWebImageCompat.m in Sources */,
 				A3A0B79D1D4B6B5600D5AE2F /* AFHTTPSessionManager.m in Sources */,
+				A3CBC6831D4CCF1E00769CC8 /* HMTableViewCell.m in Sources */,
 				A3A0B7A71D4B6B5600D5AE2F /* SDWebImageDecoder.m in Sources */,
 				A3A0B7AE1D4B6B5600D5AE2F /* UIImage+MultiFormat.m in Sources */,
 				A3A0B7AF1D4B6B5600D5AE2F /* UIImage+WebP.m in Sources */,
@@ -467,6 +473,7 @@
 				A3A0B7681D4B695400D5AE2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

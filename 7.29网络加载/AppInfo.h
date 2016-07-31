@@ -6,7 +6,7 @@
 //  Copyright © 2016年 刘家强. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface AppInfo : NSObject
 
@@ -22,5 +22,7 @@
  *  下载量
  */
 @property (nonatomic, copy) NSString *download;
+
+@property (nonatomic, strong) UIImage *image;
 
 @end
